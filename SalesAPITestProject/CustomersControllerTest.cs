@@ -88,7 +88,20 @@ namespace SalesAPITestProject
         [TestMethod]
         public void GetCustomer_WithAValidId_ShouldReturnCustomer()
         {
-            // TODO: Implement this test
+            // Arrange
+            var customerId = 1;
+            var mockCustomer = new Customer { CustomerId = customerId, Name = "John Doe" };
+            _mockRepository.Setup(repo => repo.GetById(customerId)).Returns(mockCustomer);
+
+            // Act
+            var result = _controller.Get(customerId); // Call the Get method instead of GetCustomer
+
+            // Assert
+            var okResult = result as OkObjectResult;
+            Assert.IsNotNull(okResult); // Asserts that the result is not null
+            Assert.AreEqual(200, okResult.StatusCode); // Asserts that the status code is 200 OK
+            Assert.IsInstanceOfType(okResult.Value, typeof(Customer)); // Ensures the result is a single customer
+            Assert.AreEqual(mockCustomer, okResult.Value); // Asserts that the returned customer is the expected one
         }
     }
 }
