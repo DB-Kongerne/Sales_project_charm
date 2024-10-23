@@ -25,7 +25,22 @@ namespace SalesAPITestProject
         [TestMethod]
         public void GetCustomer_WithAnInvalidId_ShouldReturnNull()
         {
-            //
+         // Arrange
+        var mockRepo = new Mock<ICustomerRepository>();
+        int invalidCustomerId = -1; // Ugyldigt ID
+
+         // Mock repository metoden GetById til at returnere null, når der gives et ugyldigt ID
+        mockRepo.Setup(repo => repo.GetById(invalidCustomerId))
+                .Returns((Customer)null);
+
+        var controller = new CustomersController(mockRepo.Object);
+
+         // Act
+        var result = controller.Get(invalidCustomerId) as NotFoundResult;
+
+         // Assert
+        Assert.IsNotNull(result); // Vi forventer, at resultatet er en NotFoundResult
+
         }
 
 
