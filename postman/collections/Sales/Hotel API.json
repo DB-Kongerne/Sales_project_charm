@@ -1,0 +1,25 @@
+{
+	"info": {
+		"_postman_id": "42050233-8a74-40ae-a520-182adb64a497",
+		"name": "Sales/Hotel API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "25965209-42050233-8a74-40ae-a520-182adb64a497"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"id": "42a2e734-c163-4cd5-a790-9713afeea4ab",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
