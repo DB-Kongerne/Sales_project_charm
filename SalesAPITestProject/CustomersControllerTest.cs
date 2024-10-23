@@ -1,4 +1,4 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Microsoft.VisualStudio.TestTools.UnitTesting; 
 using Moq;
 using SalesWebAPI.Controllers;
 using SalesWebAPI.Interfaces;
@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 namespace SalesAPITestProject
 {
-   [TestClass]
+    [TestClass]
     public class CustomersControllerTest
     {
         private Mock<ICustomerRepository> _mockRepository;
@@ -21,9 +21,10 @@ namespace SalesAPITestProject
             _mockRepository = new Mock<ICustomerRepository>();
             _controller = new CustomersController(_mockRepository.Object);
         }
+
         [TestMethod]
         public void GetCustomers_ShouldReturnLists()
-         {
+        {
             // Arrange
             var mockCustomers = new List<Customer>
             {
@@ -41,10 +42,10 @@ namespace SalesAPITestProject
             Assert.AreEqual(200, okResult.StatusCode); // Asserts that the status code is 200 OK
             Assert.IsInstanceOfType(okResult.Value, typeof(IEnumerable<Customer>)); // Ensures the result is a list of customers
         }
+
         [TestMethod]
         public void GetCustomers_When_Called_returnsNull()
         {
-        
             // Arrange
             _mockRepository.Setup(repo => repo.GetCustomers()).Returns((List<Customer>)null);
 
@@ -57,21 +58,16 @@ namespace SalesAPITestProject
             Assert.IsNull(okResult.Value); // Asserts that the returned customer list is null
         }
 
-        }
-
         [TestMethod]
         public void GetCustomer_WithAnInvalidId_ShouldReturnNull()
         {
-            //
+            // TODO: Implement this test
         }
-
-
 
         [TestMethod]
         public void GetCustomer_WithAValidId_ShouldReturnCustomer()
         {
-           //
+            // TODO: Implement this test
         }
-
     }
 }

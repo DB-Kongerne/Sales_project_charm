@@ -1,40 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Charm\\Documents\\SalesWebAPI\\SalesAPITestProject\\SalesAPITestProject.csproj": {}
+    "/Users/Mel/4sem/Sales_project_charm/SalesAPITestProject/SalesAPITestProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Charm\\Documents\\SalesWebAPI\\SalesAPITestProject\\SalesAPITestProject.csproj": {
+    "/Users/Mel/4sem/Sales_project_charm/SalesAPITestProject/SalesAPITestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Charm\\Documents\\SalesWebAPI\\SalesAPITestProject\\SalesAPITestProject.csproj",
+        "projectUniqueName": "/Users/Mel/4sem/Sales_project_charm/SalesAPITestProject/SalesAPITestProject.csproj",
         "projectName": "SalesAPITestProject",
-        "projectPath": "C:\\Users\\Charm\\Documents\\SalesWebAPI\\SalesAPITestProject\\SalesAPITestProject.csproj",
-        "packagesPath": "C:\\Users\\Charm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Charm\\Documents\\SalesWebAPI\\SalesAPITestProject\\obj\\",
+        "projectPath": "/Users/Mel/4sem/Sales_project_charm/SalesAPITestProject/SalesAPITestProject.csproj",
+        "packagesPath": "/Users/Mel/.nuget/packages/",
+        "outputPath": "/Users/Mel/4sem/Sales_project_charm/SalesAPITestProject/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Charm\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/Mel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Charm\\Documents\\SalesWebAPI\\SalesWebAPI\\SalesWebAPI.csproj": {
-                "projectPath": "C:\\Users\\Charm\\Documents\\SalesWebAPI\\SalesWebAPI\\SalesWebAPI.csproj"
+              "/Users/Mel/4sem/Sales_project_charm/SalesWebAPI/SalesWebAPI.csproj": {
+                "projectPath": "/Users/Mel/4sem/Sales_project_charm/SalesWebAPI/SalesWebAPI.csproj"
               }
             }
           }
@@ -56,11 +50,11 @@
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[3.6.1, )"
             },
             "MSTest.TestFramework": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[3.6.1, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -91,33 +85,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Charm\\Documents\\SalesWebAPI\\SalesWebAPI\\SalesWebAPI.csproj": {
+    "/Users/Mel/4sem/Sales_project_charm/SalesWebAPI/SalesWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Charm\\Documents\\SalesWebAPI\\SalesWebAPI\\SalesWebAPI.csproj",
+        "projectUniqueName": "/Users/Mel/4sem/Sales_project_charm/SalesWebAPI/SalesWebAPI.csproj",
         "projectName": "SalesWebAPI",
-        "projectPath": "C:\\Users\\Charm\\Documents\\SalesWebAPI\\SalesWebAPI\\SalesWebAPI.csproj",
-        "packagesPath": "C:\\Users\\Charm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Charm\\Documents\\SalesWebAPI\\SalesWebAPI\\obj\\",
+        "projectPath": "/Users/Mel/4sem/Sales_project_charm/SalesWebAPI/SalesWebAPI.csproj",
+        "packagesPath": "/Users/Mel/.nuget/packages/",
+        "outputPath": "/Users/Mel/4sem/Sales_project_charm/SalesWebAPI/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Charm\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/Mel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -165,7 +153,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
